@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Recipe App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="mobile-container">
+        <header>
+            <input type="text" id="search-term" />
+            <button id="search"><i class="fas fa-search"></i></button>
+        </header>
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav-meals" id="fav-meals">
+                <!-- content is dynamic with API -->
+            </ul>
+        </div>
+        <div class="meals" id="meals">
+            <!-- content is dynamic with API -->
+            
+        </div>
+    </div>
+    <div class="meal-recipe-container hidden" id="meal-popup">
+        <div class="popup">
+        <button class="close-modal" id="close-popup"><i class="fas fa-times"></i></button>
+        <div id="meal-recipe" class="meal-recipe">
+           
+            
+      
+            <!-- content is dynamic with API -->
+
+        </div>
+        </div>
+
+    </div>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
